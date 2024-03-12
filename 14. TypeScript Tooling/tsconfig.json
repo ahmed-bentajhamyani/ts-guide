@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}

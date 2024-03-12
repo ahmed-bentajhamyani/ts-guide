@@ -18,7 +18,8 @@ var User = /** @class */ (function () {
     ], User);
     return User;
 }());
-// const user = new User('Ahmed');
+var user = new User('Ahmed');
+var user2 = new User('Ahmed');
 // Method Decorators
 function format() {
     return function (target, propertyKey, descriptor) {
@@ -47,4 +48,6 @@ var Greeter = /** @class */ (function () {
 }());
 var greeter = new Greeter('World');
 console.log(greeter.greet()); // Output: HELLO, WORLD
+var greeter2 = new Greeter('Ahmed');
+console.log(greeter2.greet()); // Output: HELLO, WORLD
 //# sourceMappingURL=main.js.map

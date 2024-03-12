@@ -12,7 +12,8 @@ class User {
     }
 }
 
-// const user = new User('Ahmed');
+const user = new User('Ahmed');
+const user2 = new User('Ahmed');
 
 // Method Decorators
 function format() {
@@ -40,3 +41,6 @@ class Greeter {
 
 const greeter = new Greeter('World');
 console.log(greeter.greet()); // Output: HELLO, WORLD
+
+const greeter2 = new Greeter('Ahmed');
+console.log(greeter2.greet()); // Output: HELLO, WORLD
